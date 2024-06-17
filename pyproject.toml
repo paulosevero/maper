@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "simulator"
+version = "0.1.0"
+description = "MAPER: Mobility-Aware Power-Efficient Container Registry Migrations for Edge Computing Infrastructures"
+authors = ["Paulo Severo <paulo.severo@edu.pucrs.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+edge-sim-py = {git = "https://github.com/EdgeSimPy/EdgeSimPy.git", rev = "v1.1.0"}
+matplotlib = "3.5.0"
+tabulate = "^0.9.0"
+pandas = "1.5.3"
+openpyxl = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 160
