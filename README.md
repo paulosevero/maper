@@ -113,4 +113,5 @@ python run_experiments.py
 ```
 
 ## Manuscript
-TBD
+
+Temp, D.C., da Costa, A.A.F., Vieira, A.N.C. et al. **MAPER: mobility-aware energy-efficient container registry migrations for edge computing infrastructures**. J Supercomput 81, 15 (2025). https://doi.org/10.1007/s11227-024-06516-9.
